@@ -62,18 +62,8 @@ footer {
     margin-top: 30px;
 }
 
-.gambar {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-}
-
-.gambar img {
-    width: 45%;
-    border-radius: 10px;
-}
-
-.main {
+/* ===== CONTAINER ===== */
+.main, .sec, .sec2 {
     max-width: 850px;
     margin: 35px auto;
     padding: 30px;
@@ -83,7 +73,8 @@ footer {
     line-height: 1.7;
 }
 
-img{
+/* ===== GAMBAR DEFAULT ===== */
+img {
     display: block;
     margin: 10px auto;
     max-width: 200px;
@@ -91,30 +82,17 @@ img{
     height: auto;
 }
 
-.sec {
-    max-width: 850px;
-    margin: 35px auto;
-    padding: 30px;
-    background: white;
-    border-radius: 14px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    line-height: 1.7;
-}
-
-.sec2 {
-    max-width: 850px;
-    margin: 35px auto;
-    padding: 30px;
-    background: white;
-    border-radius: 14px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    line-height: 1.7;
+/* ===== KHUSUS KOLOSE ===== */
+.gambar {
     display: flex;
-    flex-direction: column; /* biar h2 di atas */
-    align-items: flex-start; /* jangan stretch */
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
 }
 
-.sec2 img {
-    width: 45%; /* biar muat 2 gambar */
-    border-radius: 10px;
+.gambar img {
+    width: 45%;
+    max-width: none;     /* override global */
+    margin: 0;           /* override global */
+    display: inline-block;
 }
