@@ -61,21 +61,12 @@ footer {
     margin-top: 30px;
 }
 
-img {
+img{
     display: block;
     margin: 10px auto;
     max-width: 200px;
     border-radius: 10px;
-}
-
-.main {
-    max-width: 850px;
-    margin: 35px auto;
-    padding: 30px;
-    background: white;
-    border-radius: 14px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    line-height: 1.7;
+    height: auto;
 }
 
 .sec {
@@ -96,4 +87,12 @@ img {
     border-radius: 14px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
     line-height: 1.7;
+    display: flex;
+    flex-direction: column; /* biar h2 di atas */
+    align-items: flex-start; /* jangan stretch */
+}
+
+.sec2 img {
+    width: 45%; /* biar muat 2 gambar */
+    border-radius: 10px;
 }
