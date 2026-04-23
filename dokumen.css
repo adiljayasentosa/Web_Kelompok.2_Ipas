@@ -61,6 +61,17 @@ footer {
     margin-top: 30px;
 }
 
+.gambar {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gambar img {
+    width: 45%;
+    border-radius: 10px;
+}
+
 img{
     display: block;
     margin: 10px auto;
