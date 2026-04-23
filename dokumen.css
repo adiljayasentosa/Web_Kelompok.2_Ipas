@@ -22,6 +22,7 @@ h2 {
     margin-top: 30px;
     border-left: 5px solid #4f7c65;
     padding-left: 10px;
+    display: inline-block;
 }
 
 nav {
@@ -70,6 +71,16 @@ footer {
 .gambar img {
     width: 45%;
     border-radius: 10px;
+}
+
+.main {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    line-height: 1.7;
 }
 
 img{
