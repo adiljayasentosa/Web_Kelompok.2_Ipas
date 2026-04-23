@@ -85,6 +85,15 @@ section img {
     border-radius: 10px;
 }
 
+main {
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
 /* Tabel */
 table {
     width: 90%;
